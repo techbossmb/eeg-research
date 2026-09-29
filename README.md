@@ -1,1 +1,1 @@
-# eeg-research
+# EEG: Foundational Model
