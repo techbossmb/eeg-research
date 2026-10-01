@@ -1,0 +1,80 @@
+{
+ "F3F4": {
+  "delta": {
+   "copy": 0.343,
+   "ridge": 0.436,
+   "mlp": 0.433
+  },
+  "theta": {
+   "copy": 0.265,
+   "ridge": 0.336,
+   "mlp": 0.326
+  },
+  "alpha": {
+   "copy": 0.417,
+   "ridge": 0.476,
+   "mlp": 0.468
+  },
+  "beta": {
+   "copy": 0.445,
+   "ridge": 0.5,
+   "mlp": 0.489
+  },
+  "gamma": {
+   "copy": 0.415,
+   "ridge": 0.454,
+   "mlp": 0.435
+  },
+  "alpha_asym_r": 0.045,
+  "alpha_per_subject": {
+   "median": 0.447,
+   "min": 0.231,
+   "max": 0.795,
+   "frac_gt_03": 0.95
+  },
+  "allbands_per_subject": {
+   "median": 0.436,
+   "min": 0.215,
+   "max": 0.676
+  }
+ },
+ "Fp1Fp2": {
+  "delta": {
+   "copy": 0.313,
+   "ridge": 0.37,
+   "mlp": 0.369
+  },
+  "theta": {
+   "copy": 0.201,
+   "ridge": 0.262,
+   "mlp": 0.261
+  },
+  "alpha": {
+   "copy": 0.288,
+   "ridge": 0.353,
+   "mlp": 0.347
+  },
+  "beta": {
+   "copy": 0.227,
+   "ridge": 0.331,
+   "mlp": 0.317
+  },
+  "gamma": {
+   "copy": 0.255,
+   "ridge": 0.273,
+   "mlp": 0.243
+  },
+  "alpha_asym_r": 0.022,
+  "alpha_per_subject": {
+   "median": 0.376,
+   "min": 0.129,
+   "max": 0.7,
+   "frac_gt_03": 0.64
+  },
+  "allbands_per_subject": {
+   "median": 0.303,
+   "min": 0.146,
+   "max": 0.546
+  }
+ }
+}

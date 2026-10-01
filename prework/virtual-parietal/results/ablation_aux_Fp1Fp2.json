@@ -1,0 +1,32 @@
+{
+ "A_bandpower|ridge": {
+  "n_features": 10,
+  "within_subject_r": 0.305,
+  "r2": 0.096
+ },
+ "B_plus_aux(main)|ridge": {
+  "n_features": 28,
+  "within_subject_r": 0.318,
+  "r2": 0.105
+ },
+ "C_plus_ratios|ridge": {
+  "n_features": 39,
+  "within_subject_r": 0.316,
+  "r2": 0.104
+ },
+ "A_bandpower|mlp": {
+  "n_features": 10,
+  "within_subject_r": 0.31,
+  "r2": 0.095
+ },
+ "B_plus_aux(main)|mlp": {
+  "n_features": 28,
+  "within_subject_r": 0.308,
+  "r2": 0.091
+ },
+ "C_plus_ratios|mlp": {
+  "n_features": 39,
+  "within_subject_r": 0.314,
+  "r2": 0.1
+ }
+}

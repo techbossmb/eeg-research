@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- EEG research ---
+# raw/processed EEG data (re-download with prework/virtual-parietal/download_data.sh)
+data/
+*.bdf
+*.npz
+**/checkpoints/
+_to_delete/
+# never commit credentials
+.github_token
+*credentials*

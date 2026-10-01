@@ -1,0 +1,198 @@
+{
+ "F3F4": {
+  "frontal|ridge": {
+   "acc": [
+    53.7,
+    1.8
+   ],
+   "r": 0.153,
+   "se": 0.039
+  },
+  "frontal|mlp": {
+   "acc": [
+    53.3,
+    1.5
+   ],
+   "r": 0.151,
+   "se": 0.039
+  },
+  "virtual_parietal|ridge": {
+   "acc": [
+    57.0,
+    1.6
+   ],
+   "r": 0.163,
+   "se": 0.038
+  },
+  "virtual_parietal|mlp": {
+   "acc": [
+    58.2,
+    1.7
+   ],
+   "r": 0.176,
+   "se": 0.037
+  },
+  "frontal+virtual|ridge": {
+   "acc": [
+    53.1,
+    1.7
+   ],
+   "r": 0.15,
+   "se": 0.039
+  },
+  "frontal+virtual|mlp": {
+   "acc": [
+    56.4,
+    1.4
+   ],
+   "r": 0.167,
+   "se": 0.032
+  },
+  "true_parietal|ridge": {
+   "acc": [
+    53.3,
+    1.6
+   ],
+   "r": 0.167,
+   "se": 0.04
+  },
+  "true_parietal|mlp": {
+   "acc": [
+    54.0,
+    1.4
+   ],
+   "r": 0.152,
+   "se": 0.037
+  },
+  "frontal+true_parietal|ridge": {
+   "acc": [
+    54.2,
+    1.8
+   ],
+   "r": 0.196,
+   "se": 0.036
+  },
+  "frontal+true_parietal|mlp": {
+   "acc": [
+    56.0,
+    1.7
+   ],
+   "r": 0.204,
+   "se": 0.037
+  },
+  "valence_decoded|ridge": {
+   "acc": [
+    52.2,
+    1.4
+   ],
+   "r": 0.111,
+   "se": 0.038
+  },
+  "valence_rating|ridge": {
+   "acc": [
+    72.3,
+    2.1
+   ],
+   "r": 0.537,
+   "se": 0.044
+  }
+ },
+ "Fp1Fp2": {
+  "frontal|ridge": {
+   "acc": [
+    53.8,
+    1.6
+   ],
+   "r": 0.115,
+   "se": 0.042
+  },
+  "frontal|mlp": {
+   "acc": [
+    52.4,
+    1.5
+   ],
+   "r": 0.061,
+   "se": 0.038
+  },
+  "virtual_parietal|ridge": {
+   "acc": [
+    53.7,
+    1.9
+   ],
+   "r": 0.171,
+   "se": 0.047
+  },
+  "virtual_parietal|mlp": {
+   "acc": [
+    55.3,
+    1.9
+   ],
+   "r": 0.175,
+   "se": 0.043
+  },
+  "frontal+virtual|ridge": {
+   "acc": [
+    53.7,
+    1.8
+   ],
+   "r": 0.126,
+   "se": 0.041
+  },
+  "frontal+virtual|mlp": {
+   "acc": [
+    49.6,
+    1.4
+   ],
+   "r": 0.078,
+   "se": 0.041
+  },
+  "true_parietal|ridge": {
+   "acc": [
+    53.3,
+    1.6
+   ],
+   "r": 0.167,
+   "se": 0.04
+  },
+  "true_parietal|mlp": {
+   "acc": [
+    54.0,
+    1.4
+   ],
+   "r": 0.152,
+   "se": 0.037
+  },
+  "frontal+true_parietal|ridge": {
+   "acc": [
+    55.5,
+    1.7
+   ],
+   "r": 0.189,
+   "se": 0.035
+  },
+  "frontal+true_parietal|mlp": {
+   "acc": [
+    56.0,
+    1.7
+   ],
+   "r": 0.184,
+   "se": 0.035
+  },
+  "valence_decoded|ridge": {
+   "acc": [
+    47.8,
+    1.8
+   ],
+   "r": -0.067,
+   "se": 0.047
+  },
+  "valence_rating|ridge": {
+   "acc": [
+    72.3,
+    2.1
+   ],
+   "r": 0.537,
+   "se": 0.044
+  }
+ }
+}

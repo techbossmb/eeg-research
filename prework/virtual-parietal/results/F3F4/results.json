@@ -1,0 +1,131 @@
+{
+  "config": {
+    "frontal": "F3F4",
+    "no_subject_norm": false,
+    "folds": 5,
+    "models": "ridge,mlp"
+  },
+  "n_subjects": 39,
+  "n_windows": 34314,
+  "stageA": {
+    "ridge": {
+      "r2": {
+        "P3:logpow_delta": 0.18469130992889404,
+        "P4:logpow_delta": 0.20046186447143555,
+        "P3:logpow_theta": 0.10983115434646606,
+        "P4:logpow_theta": 0.12040811777114868,
+        "P3:logpow_alpha": 0.22961467504501343,
+        "P4:logpow_alpha": 0.23863071203231812,
+        "P3:logpow_beta": 0.2624943256378174,
+        "P4:logpow_beta": 0.245158851146698,
+        "P3:logpow_gamma": 0.22429710626602173,
+        "P4:logpow_gamma": 0.21399199962615967
+      },
+      "mean_within_subject_r": {
+        "P3:logpow_delta": 0.4263845980167389,
+        "P4:logpow_delta": 0.44478315114974976,
+        "P3:logpow_theta": 0.3280675709247589,
+        "P4:logpow_theta": 0.3436683118343353,
+        "P3:logpow_alpha": 0.4703424870967865,
+        "P4:logpow_alpha": 0.48127809166908264,
+        "P3:logpow_beta": 0.5092200636863708,
+        "P4:logpow_beta": 0.4910869002342224,
+        "P3:logpow_gamma": 0.45924949645996094,
+        "P4:logpow_gamma": 0.4487020969390869
+      },
+      "mean_r2": 0.20295801162719726
+    },
+    "mlp": {
+      "r2": {
+        "P3:logpow_delta": 0.18222105503082275,
+        "P4:logpow_delta": 0.19696134328842163,
+        "P3:logpow_theta": 0.10105383396148682,
+        "P4:logpow_theta": 0.10688233375549316,
+        "P3:logpow_alpha": 0.22024750709533691,
+        "P4:logpow_alpha": 0.23023700714111328,
+        "P3:logpow_beta": 0.24500560760498047,
+        "P4:logpow_beta": 0.235859215259552,
+        "P3:logpow_gamma": 0.19787812232971191,
+        "P4:logpow_gamma": 0.19641900062561035
+      },
+      "mean_within_subject_r": {
+        "P3:logpow_delta": 0.42636236548423767,
+        "P4:logpow_delta": 0.4397779107093811,
+        "P3:logpow_theta": 0.3213941752910614,
+        "P4:logpow_theta": 0.3303966820240021,
+        "P3:logpow_alpha": 0.4622250199317932,
+        "P4:logpow_alpha": 0.4746409058570862,
+        "P3:logpow_beta": 0.4942386746406555,
+        "P4:logpow_beta": 0.4831905961036682,
+        "P3:logpow_gamma": 0.4364682137966156,
+        "P4:logpow_gamma": 0.43304258584976196
+      },
+      "mean_r2": 0.19127650260925294
+    },
+    "best_model": "ridge"
+  },
+  "stageB": {
+    "valence_decoding_within_subject_r": 0.27291539868534853,
+    "valence_rating|ridge": {
+      "within_subject_r": 0.5369180290735489,
+      "se": 0.04390549790578949,
+      "auc": 0.7377597981993587
+    },
+    "valence_decoded|ridge": {
+      "within_subject_r": 0.1110045578350331,
+      "se": 0.03844896403813935,
+      "auc": 0.5375726227374579
+    },
+    "frontal|ridge": {
+      "within_subject_r": 0.15329684493204174,
+      "se": 0.039028902276543806,
+      "auc": 0.5730923533121335
+    },
+    "frontal|mlp": {
+      "within_subject_r": 0.15057663407720287,
+      "se": 0.039128459099180564,
+      "auc": 0.5537173449261361
+    },
+    "virtual_parietal|ridge": {
+      "within_subject_r": 0.1632843193405861,
+      "se": 0.038089754808919095,
+      "auc": 0.5842423754511668
+    },
+    "virtual_parietal|mlp": {
+      "within_subject_r": 0.17585134829238067,
+      "se": 0.03710932538724354,
+      "auc": 0.5943961410994378
+    },
+    "frontal+virtual|ridge": {
+      "within_subject_r": 0.14982409614319842,
+      "se": 0.03949478593079375,
+      "auc": 0.5716533161588107
+    },
+    "frontal+virtual|mlp": {
+      "within_subject_r": 0.16714624906595424,
+      "se": 0.03242458152867769,
+      "auc": 0.5928698895731863
+    },
+    "true_parietal|ridge": {
+      "within_subject_r": 0.1670934916918584,
+      "se": 0.03963449412953635,
+      "auc": 0.5660783050892941
+    },
+    "true_parietal|mlp": {
+      "within_subject_r": 0.1522281266951796,
+      "se": 0.037272862103490866,
+      "auc": 0.5599464637926177
+    },
+    "frontal+true_parietal|ridge": {
+      "within_subject_r": 0.19571150461010184,
+      "se": 0.03598019614646528,
+      "auc": 0.5803848166485529
+    },
+    "frontal+true_parietal|mlp": {
+      "within_subject_r": 0.20424897912124199,
+      "se": 0.036635543014431296,
+      "auc": 0.5772417448241625
+    }
+  },
+  "elapsed_s": 0.315854549407959
+}

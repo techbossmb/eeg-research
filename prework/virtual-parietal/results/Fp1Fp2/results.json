@@ -1,0 +1,131 @@
+{
+  "config": {
+    "frontal": "Fp1Fp2",
+    "no_subject_norm": false,
+    "folds": 5,
+    "models": "ridge,mlp"
+  },
+  "n_subjects": 39,
+  "n_windows": 34314,
+  "stageA": {
+    "ridge": {
+      "r2": {
+        "P3:logpow_delta": 0.1307242512702942,
+        "P4:logpow_delta": 0.14619028568267822,
+        "P3:logpow_theta": 0.06925070285797119,
+        "P4:logpow_theta": 0.07057803869247437,
+        "P3:logpow_alpha": 0.12754809856414795,
+        "P4:logpow_alpha": 0.13253521919250488,
+        "P3:logpow_beta": 0.11476898193359375,
+        "P4:logpow_beta": 0.11268478631973267,
+        "P3:logpow_gamma": 0.07055145502090454,
+        "P4:logpow_gamma": 0.07593470811843872
+      },
+      "mean_within_subject_r": {
+        "P3:logpow_delta": 0.3615624010562897,
+        "P4:logpow_delta": 0.37811562418937683,
+        "P3:logpow_theta": 0.2616429626941681,
+        "P4:logpow_theta": 0.2628921568393707,
+        "P3:logpow_alpha": 0.3488547205924988,
+        "P4:logpow_alpha": 0.3561986982822418,
+        "P3:logpow_beta": 0.33350706100463867,
+        "P4:logpow_beta": 0.3279106020927429,
+        "P3:logpow_gamma": 0.268731027841568,
+        "P4:logpow_gamma": 0.2769327163696289
+      },
+      "mean_r2": 0.10507665276527405
+    },
+    "mlp": {
+      "r2": {
+        "P3:logpow_delta": 0.12000620365142822,
+        "P4:logpow_delta": 0.1410115361213684,
+        "P3:logpow_theta": 0.062168657779693604,
+        "P4:logpow_theta": 0.05914026498794556,
+        "P3:logpow_alpha": 0.1170472502708435,
+        "P4:logpow_alpha": 0.1279396414756775,
+        "P3:logpow_beta": 0.0964655876159668,
+        "P4:logpow_beta": 0.10006076097488403,
+        "P3:logpow_gamma": 0.04540121555328369,
+        "P4:logpow_gamma": 0.04537832736968994
+      },
+      "mean_within_subject_r": {
+        "P3:logpow_delta": 0.35936784744262695,
+        "P4:logpow_delta": 0.37780943512916565,
+        "P3:logpow_theta": 0.2621117830276489,
+        "P4:logpow_theta": 0.25953778624534607,
+        "P3:logpow_alpha": 0.3398972153663635,
+        "P4:logpow_alpha": 0.35497331619262695,
+        "P3:logpow_beta": 0.31662923097610474,
+        "P4:logpow_beta": 0.31783655285835266,
+        "P3:logpow_gamma": 0.24397796392440796,
+        "P4:logpow_gamma": 0.2428797483444214
+      },
+      "mean_r2": 0.09146194458007813
+    },
+    "best_model": "ridge"
+  },
+  "stageB": {
+    "valence_decoding_within_subject_r": 0.24391708574487625,
+    "valence_rating|ridge": {
+      "within_subject_r": 0.5369180290735489,
+      "se": 0.04390549790578949,
+      "auc": 0.7377597981993587
+    },
+    "valence_decoded|ridge": {
+      "within_subject_r": -0.06725797751284501,
+      "se": 0.04724706248283454,
+      "auc": 0.46226301171356116
+    },
+    "frontal|ridge": {
+      "within_subject_r": 0.11508594105300336,
+      "se": 0.041595884705441066,
+      "auc": 0.5500040252787506
+    },
+    "frontal|mlp": {
+      "within_subject_r": 0.06098338066032241,
+      "se": 0.03822495019560569,
+      "auc": 0.522581813790605
+    },
+    "virtual_parietal|ridge": {
+      "within_subject_r": 0.1714854657748797,
+      "se": 0.04658413139267096,
+      "auc": 0.5711803459056206
+    },
+    "virtual_parietal|mlp": {
+      "within_subject_r": 0.1745930169226043,
+      "se": 0.04290855854034141,
+      "auc": 0.5652363509506366
+    },
+    "frontal+virtual|ridge": {
+      "within_subject_r": 0.12586405960992517,
+      "se": 0.0413590160900781,
+      "auc": 0.5460424801084142
+    },
+    "frontal+virtual|mlp": {
+      "within_subject_r": 0.07757326721354327,
+      "se": 0.0405340128624346,
+      "auc": 0.5237122462397188
+    },
+    "true_parietal|ridge": {
+      "within_subject_r": 0.1670934916918584,
+      "se": 0.03963449412953635,
+      "auc": 0.5660783050892941
+    },
+    "true_parietal|mlp": {
+      "within_subject_r": 0.1522281266951796,
+      "se": 0.037272862103490866,
+      "auc": 0.5599464637926177
+    },
+    "frontal+true_parietal|ridge": {
+      "within_subject_r": 0.18866252351260945,
+      "se": 0.034639143485728226,
+      "auc": 0.5742663929477116
+    },
+    "frontal+true_parietal|mlp": {
+      "within_subject_r": 0.18445590979556017,
+      "se": 0.03526465687338618,
+      "auc": 0.5738470930778623
+    }
+  },
+  "elapsed_s": 0.28244853019714355
+}
